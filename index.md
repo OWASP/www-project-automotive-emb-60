@@ -21,8 +21,8 @@ The Automotive EMB60 is a CAN-to-USB interface which in its basic form enables t
 * Button & 2 LEDs
 
 <p float="left">
-    <img width="300" src="/pics/IMG_0145_small.jpg">
     <img width="300" src="/pics/IMG_0171_small.jpg">
+    <img width="300" src="/pics/IMG_0145_small.jpg">
     <img width="300" src="/pics/IMG_0170_small.jpg">
 </p>
 
