@@ -9,14 +9,17 @@ pitch: A very brief, one-line description of your project
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+The Automotive EMB60 is a CAN-to-USB interface which in its basic form enables the possibility to connect a device to a CAN-Bus (Controller Area Network) over USB. It was developed in the context of a research project for penetration test driven safety and security system improvements for cyber-critical systems. The EMB60 specifically aims for penetration testing in the automotive area where CAN is the prevalent communication standard. It's a full open source project providing open hardware and software. 
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+## Hardware
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+* Microchip ATSAME70N21 Microcontroller
+* 2 MCP2562FD High-Speed CAN FD Transceiver
+* 2-in-1 CAN FD Interface
+* USB-1.0/2.0 Type B
+* 40-pin Header (Pinout similar to a RaspberryPi)
+* Button & 2 LEDs
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
-
-type: code, tool, documentation, or other
+<img src='/pics/IMG_0145_small.jpg'/>
+<img src='/pics/IMG_0170_small.jpg'/>
+<img src='/pics/IMG_0171_small.jpg'/>
