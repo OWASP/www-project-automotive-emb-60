@@ -12,7 +12,7 @@ pitch:
 ## Description
 Automotive security can be difficult to get into. Resources are limited and specialized hardware is needed. This open source project's goal is to lower this hurdle by providing an inexpensive and highly customizable device designed for practical automotive security use-cases.
 
-The Automotive EMB60 is a single-board computer which in its basic form can be used as a CAN-to-USB interface to connect a device to a CAN-Bus (Controller Area Network) over USB. It was developed in the context of a research project for penetration test driven safety and security system improvements for cyber-critical systems. The EMB60 specifically targets penetration testing in the automotive area where CAN is the prevalent communication standard. It's a full open source project providing open hardware and software. This allows for extensive customization and various other use-cases. 
+The Automotive EMB60 (Embedded60) is a single-board computer which in its basic form can be used as a CAN-to-USB interface to connect a device to a CAN-Bus (Controller Area Network) over USB. It was developed in the context of a research project for penetration test driven safety and security system improvements for cyber-critical systems. The EMB60 specifically targets penetration testing in the automotive area where CAN is the prevalent communication standard. It's a full open source project providing open hardware and software. This allows for extensive customization and various other use-cases. 
 
 ## Feature Overview
 * Powerful Microcontroller
@@ -37,6 +37,14 @@ The Automotive EMB60 is a single-board computer which in its basic form can be u
     <img width="300" src="/pics/IMG_0145_small.jpg">
     <img width="300" src="/pics/IMG_0170_small.jpg">
 </p>
+
+
+
+
+
+
+
+
 
 
 
