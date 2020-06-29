@@ -20,8 +20,10 @@ The Automotive EMB60 is a CAN-to-USB interface which in its basic form enables t
 * 40-pin Header (Pinout similar to a RaspberryPi)
 * Button & 2 LEDs
 
-![image alt >](/pics/IMG_0170_small.jpg)
-![image alt <](/pics/IMG_0145_small.jpg)
-![image alt ><](/pics/IMG_0171_small.jpg)
+<img style="float: left;" src="/pics/IMG_0171_small.jpg">
+<img style="float: center;" src="/pics/IMG_0170_small.jpg">
+<img style="float: right;" src="/pics/IMG_0145_small.jpg">
+
+
 
 
