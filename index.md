@@ -5,7 +5,7 @@ title: OWASP Automotive EMB 60
 tags: example-tag
 level: 1
 type: 
-pitch: A very brief, one-line description of your project
+pitch: 
 
 ---
 
@@ -20,6 +20,8 @@ The Automotive EMB60 is a CAN-to-USB interface which in its basic form enables t
 * 40-pin Header (Pinout similar to a RaspberryPi)
 * Button & 2 LEDs
 
-<img src='/pics/IMG_0145_small.jpg'/>
-<img src='/pics/IMG_0170_small.jpg'/>
-<img src='/pics/IMG_0171_small.jpg'/>
+![image alt >](/pics/IMG_0170_small.jpg)
+![image alt <](/pics/IMG_0145_small.jpg)
+![image alt ><](/pics/IMG_0171_small.jpg)
+
+
