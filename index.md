@@ -31,6 +31,9 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 * USB-1.0/2.0 Type B
 * 40-pin Header (Pinout similar to a RaspberryPi: SPI, I2C, GPIO, ADC, ...)
 * Button & 2 LEDs (Freely programmable)
+* Memory Protection Unit (MPU)
+* True Random Number Generator
+* Hardware AES and SHA support
 
 <p float="left">
     <img width="300" src="/pics/IMG_0171_small.jpg">
