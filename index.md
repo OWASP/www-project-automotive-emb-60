@@ -9,7 +9,7 @@ pitch:
 
 ---
 
-The Automotive EMB60 is a CAN-to-USB interface which in its basic form enables the possibility to connect a device to a CAN-Bus (Controller Area Network) over USB. It was developed in the context of a research project for penetration test driven safety and security system improvements for cyber-critical systems. The EMB60 specifically aims for penetration testing in the automotive area where CAN is the prevalent communication standard. It's a full open source project providing open hardware and software. 
+The Automotive EMB60 is a single-board computer which in its basic form can be used as a CAN-to-USB interface to connect a device to a CAN-Bus (Controller Area Network) over USB. It was developed in the context of a research project for penetration test driven safety and security system improvements for cyber-critical systems. The EMB60 specifically aims for penetration testing in the automotive area where CAN is the prevalent communication standard. It's a full open source project providing open hardware and software. 
 
 ## Hardware
 
