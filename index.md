@@ -50,7 +50,7 @@ Existing firmwares include:
 Provides two CAN interfaces through a USB connection. It implements the SocketCAN interface which is natively supported on linux and thus provides linux sockets to use. This allows the usage with already established tools like can-isoto and scapy.
 
 **Secure Bootloader**
-Still in development, a secure bootloader is being worked on. It shall provide functionality for encryption while flashing and software authentication of custom firmwares.
+Still in development, a secure bootloader is being worked on. It shall provide functionality for encryption while flashing a custom firmware over CAN. Also software authentication of custom firmwares shall be provided.
 
 
 
