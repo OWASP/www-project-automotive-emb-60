@@ -17,8 +17,8 @@ The Automotive EMB60 is a single-board computer which in its basic form can be u
 * 2 MCP2562FD High-Speed CAN FD Transceiver
 * 2-in-1 CAN FD Interface
 * USB-1.0/2.0 Type B
-* 40-pin Header (Pinout similar to a RaspberryPi)
-* Button & 2 LEDs
+* 40-pin Header (Pinout similar to a RaspberryPi: SPI, I2C, GPIO, ADC, ...)
+* Button & 2 LEDs (Freely programmable)
 
 <p float="left">
     <img width="300" src="/pics/IMG_0171_small.jpg">
