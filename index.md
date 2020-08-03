@@ -44,14 +44,20 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 
 
 ## Software
-The EMB60 provides some firmwares out of the box. Since the device can be freely programmed it is not limited to them.
+The EMB60 provides some libraries and firmwares out of the box. Since the device can be freely programmed it is not limited to them.
 Existing firmwares include:
 
 **CAN-to-USB Interface**
 Provides two CAN interfaces through a USB connection. It implements the SocketCAN interface which is natively supported on linux and thus provides linux sockets to use. This allows the usage with already established tools like can-isotp and scapy.
 
 **Secure Bootloader**
-Still in development, a secure bootloader is being worked on. It shall provide functionality for encryption while flashing a custom firmware over CAN. Also software authentication of custom firmwares shall be provided.
+An open source secure bootloader being improved continuously.
+* Firmwareupdate over automotive protocols (CAN using the protocols IsoTP and UDS)
+* Confidentiality: Secure distribution of updates utilizing hardware accelerated AES-128-GCM encryption
+* Integrity/Authenticity: Secure boot utilizing HMAC-SHA256 Signatures (hardware accelerated)
+* Keys stored in flash memory protected through MPU
+* Tries to not rely on the firmware being secure (suitable for exploitable firmwares)
+* Extensive RAM erase and other protection mechanism
 
 
 
