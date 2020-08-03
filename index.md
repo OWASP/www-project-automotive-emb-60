@@ -27,8 +27,9 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 
 * Microchip ATSAME70N21B Microcontroller
 * 2 MCP2562FD High-Speed CAN FD Transceiver
-* 2-in-1 CAN FD Interface
+* 2-Channel CAN FD Interface (Single D-Sub 9 Connector)
 * USB-1.0/2.0 Type B
+* Various Other Interfaces for Expandability
 * 40-pin Header (Pinout similar to a RaspberryPi: SPI, I2C, GPIO, ADC, ...)
 * Button & 2 LEDs (Freely programmable)
 * Memory Protection Unit (MPU)
