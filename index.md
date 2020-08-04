@@ -52,16 +52,12 @@ Provides two CAN interfaces through a USB connection. It implements the SocketCA
 
 **Secure Bootloader**
 An open source secure bootloader being improved continuously.
-* Firmwareupdate over automotive protocols (CAN using the protocols IsoTP and UDS)
+* Firmwareupdate over automotive protocols (CAN using the protocols ISOTP and UDS)
 * Confidentiality: Secure distribution of updates utilizing hardware accelerated AES-128-GCM encryption
-* Integrity/Authenticity: Secure boot utilizing HMAC-SHA256 Signatures (hardware accelerated)
+* Integrity/Authenticity: Secure boot utilizing HMAC-SHA256 signatures (hardware accelerated)
 * Keys stored in flash memory protected through MPU
-* Tries to not rely on the firmware being secure (suitable for exploitable firmwares)
-* Extensive RAM erase and other protection mechanism
-
-
-
-
+* Does not rely on the firmware being secure
+* Extensive RAM clear and other protection mechanisms
 
 
 
