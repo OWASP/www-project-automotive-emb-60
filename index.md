@@ -27,8 +27,9 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 
 * Microchip ATSAME70N21B Microcontroller
 * 2 MCP2562FD High-Speed CAN FD Transceiver
-* 2-in-1 CAN FD Interface
+* 2-Channel CAN FD Interface (Single D-Sub 9 Connector)
 * USB-1.0/2.0 Type B
+* Various other interfaces for expandability
 * 40-pin Header (Pinout similar to a RaspberryPi: SPI, I2C, GPIO, ADC, ...)
 * Button & 2 LEDs (Freely programmable)
 * Memory Protection Unit (MPU)
@@ -43,18 +44,20 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 
 
 ## Software
-The EMB60 provides some firmwares out of the box. Since the device can be freely programmed it is not limited to them.
+The EMB60 provides some libraries and firmwares out of the box. Since the device can be freely programmed it is not limited to them.
 Existing firmwares include:
 
 **CAN-to-USB Interface**
 Provides two CAN interfaces through a USB connection. It implements the SocketCAN interface which is natively supported on linux and thus provides linux sockets to use. This allows the usage with already established tools like can-isotp and scapy.
 
 **Secure Bootloader**
-Still in development, a secure bootloader is being worked on. It shall provide functionality for encryption while flashing a custom firmware over CAN. Also software authentication of custom firmwares shall be provided.
-
-
-
-
+An open source secure bootloader being improved continuously.
+* Firmwareupdate over automotive protocols (CAN using the protocols ISOTP and UDS)
+* Confidentiality: Secure distribution of updates utilizing hardware accelerated AES-128-GCM encryption
+* Integrity/Authenticity: Secure boot utilizing HMAC-SHA256 signatures (hardware accelerated)
+* Keys stored in flash memory protected through MPU
+* Does not rely on the firmware being secure
+* Extensive RAM clear and other protection mechanisms
 
 
 
