@@ -1,17 +1,10 @@
 ### Automotive EMB 60 Information
-* [Flagship Project](#)
+* [Incubator Project](#)
 * [Tool Project](#)
-* [Version 2.8.0](#)
 * [Builder](#)
 * [Breaker](#)
 
-### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
-
 ### Code Repository
-* [repo](#)
+* [Github](#)
 
-### Change Log
-* [changes](#)
 
