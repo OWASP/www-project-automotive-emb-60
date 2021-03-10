@@ -1,14 +1,3 @@
----
-
-layout: col-sidebar
-title: OWASP Automotive EMB 60
-tags: example-tag
-level: 1
-type: 
-pitch: 
-
----
-
 ## Description
 Automotive security can be difficult to get into. Resources are limited and specialized hardware is needed. This open source project's goal is to lower this hurdle by providing an inexpensive and highly customizable device designed for practical automotive security use-cases.
 
