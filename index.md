@@ -37,9 +37,9 @@ The Automotive EMB60 (Embedded60) is a single-board computer which in its basic 
 * Hardware AES and SHA support
 
 <p float="left">
-    <img width="300" src="/pics/IMG_0171_small.jpg">
-    <img width="300" src="/pics/IMG_0145_small.jpg">
-    <img width="300" src="/pics/IMG_0170_small.jpg">
+    <img width="300" src="/assets/images/IMG_0171_small.jpg">
+    <img width="300" src="/assets/images/IMG_0145_small.jpg">
+    <img width="300" src="/assets/images/IMG_0170_small.jpg">
 </p>
 
 
