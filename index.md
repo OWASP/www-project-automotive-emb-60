@@ -3,7 +3,7 @@
 layout: col-sidebar
 title: OWASP Automotive EMB 60
 tags: example-tag
-level: 1
+level: 2
 type: 
 pitch: 
 
