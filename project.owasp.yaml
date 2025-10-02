@@ -1,0 +1,20 @@
+audience:
+  - breaker
+  - builder
+leaders:
+  - name: Alexander Meisel
+    email: owasp.org@meisel.cc
+    github: superuserx
+level: 2
+name: OWASP Automotive EMB 60
+pitch: Description for OWASP Automotive EMB 60
+repositories:
+  - name: www-project-automotive-emb-60
+    url: https://github.com/OWASP/www-project-automotive-emb-60
+    description: OWASP Foundation Web Repository
+tags:
+  - example-tag
+  - custom-tag-1
+  - custom-tag-2
+type: documentation
+website: https://owasp.org/www-project-automotive-emb-60
